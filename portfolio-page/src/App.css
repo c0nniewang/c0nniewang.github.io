@@ -67,5 +67,9 @@ footer {
   text-decoration-color: #BF6567; 
 }
 
+a:link {
+  text-decoration: none
+}
+
 
 
