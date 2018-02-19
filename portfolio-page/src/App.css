@@ -49,23 +49,23 @@ footer {
   padding: 10px;
 }
 
-button {
+.button {
   border: none;
   background-color: #EDEDE6;
   padding: 1px;
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: right;
-}
-
-button:hover { 
-  text-decoration: underline; 
-  text-underline-position: under;
-  text-decoration-color: #BF6567; }
-
-#sidebar-menu {
   font-size: large;
   font-family: 'Noto Serif', serif;
   color: #2B2826;
 }
+
+.button:hover { 
+  text-decoration: underline; 
+  text-underline-position: under;
+  text-decoration-color: #BF6567; 
+}
+
+
 
