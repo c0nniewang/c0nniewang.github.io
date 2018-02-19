@@ -7,13 +7,14 @@ class App extends Component {
     return (
       <div className="App">
         <Sidebar />
-        <p className="App-title">
-          Hi, I'm Connie Wang.
-        </p>
-
-        <p className="App-intro">
-          I am a full stack web developer currently based in NYC looking for my next adventure.
-        </p>
+        <div className="App-text">
+          <p className="App-title">
+            Hi, I'm Connie Wang.
+          </p>
+          <p className="App-intro">
+            I am a full stack web developer currently based in NYC looking for my next adventure.
+          </p>
+        </div>
       </div>
     );
   }

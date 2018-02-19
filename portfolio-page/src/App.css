@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.sidebar {
+  grid-area: 1 / 1 / 4 / 1;
+
+}
+.App-text {
+  grid-area: 2 / 2 / 3 / 4;
 }
 
 .App-title {
