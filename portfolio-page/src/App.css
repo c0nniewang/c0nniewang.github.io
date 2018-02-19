@@ -1,20 +1,37 @@
-.App {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  padding: 15px;
+  margin-right: 10px;
+}
+
+footer {
+  grid-area: footer;
 }
 
 .sidebar {
-  grid-area: 1 / 1 / 4 / 1;
+  grid-area: sidebar;
+}
 
+.App {
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-gap: 2.5em;
+  width: 100vw;
+  height: 100vh;
 }
-.App-text {
-  grid-area: 2 / 2 / 3 / 4;
-}
+
 
 .App-title {
-  font-size: 3.5em;
+  font-size: 5.0em;
   color: #BF6567;
   font-family: 'Noto Serif', serif;
 }
@@ -22,10 +39,33 @@
 .App-intro {
   font-size: large;
   font-family: 'Noto Sans', sans-serif;
+  color: #2B2826;
 }
 
-.sidebar-menu {
+.sidebar {
+  text-align: right;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  background-color: #EDEDE6;
+  padding: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+button:hover { 
+  text-decoration: underline; 
+  text-underline-position: under;
+  text-decoration-color: #BF6567; }
+
+#sidebar-menu {
   font-size: large;
   font-family: 'Noto Serif', serif;
+  color: #2B2826;
 }
 

@@ -6,15 +6,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <header></header>
         <Sidebar />
-        <div className="App-text">
+        <main>
           <p className="App-title">
             Hi, I'm Connie Wang.
           </p>
           <p className="App-intro">
-            I am a full stack web developer currently based in NYC looking for my next adventure.
+            I am a full stack web developer currently based in NYC looking for my next adventure. After playing piano for 18 years, I decided to jump into something new and try my hand at coding. 
           </p>
-        </div>
+        </main>
+        <footer></footer>
       </div>
     );
   }
