@@ -116,3 +116,14 @@ a.thick {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
 }
+
+button {
+  padding: 10px;
+  font-size: 0.8em;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #EDEDE6;
+  color: #4F4846;
+  border: 1px solid #BF6567;
+}
+
+button:focus {outline:0;}

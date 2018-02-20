@@ -7,9 +7,10 @@ const Sidebar = (props) => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/c0nniewang"
+        href="https://www.medium.com/@c0nniewang"
         className="button" 
-        id="github">github >
+        id="medium"
+        >medium blog >
       </a>
       <a
         target="_blank"
@@ -20,11 +21,11 @@ const Sidebar = (props) => {
         id="linkedin">linkedin >
       </a>
       <a
-        style={{"color": `${state.activeItem === 'medium' ? "#BF6567" : "#2B2826"}`} }
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/c0nniewang"
         className="button" 
-        id="medium"
-        onClick={(ev) => props.handleClick(ev)}
-        >blog {state.activeItem === 'medium' ? " -" : " +"}
+        id="github">github >
       </a>
       <a
         style={{"color": `${state.activeItem === 'projects' ? "#BF6567" : "#2B2826"}`} }
