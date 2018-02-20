@@ -29,7 +29,6 @@ footer {
   height: 100vh;
 }
 
-
 .App-title {
   font-size: 5.0em;
   color: #BF6567;
@@ -47,6 +46,10 @@ footer {
   display: flex;
   flex-direction: column-reverse;
   padding: 10px;
+  position: fixed;
+  margin-top: 18%;
+  margin-left: 5%;
+  /*font-weight: bold*/
 }
 
 .button {
@@ -81,27 +84,22 @@ hr.style {
   margin-left: 0;
 }
 
+hr.style1{
+  background-color: #4F4846;
+  border: none;
+  height: 8px;
+  width: 8%;
+  text-align: left;
+  margin-left: 0;
+}
+
 h1 {
   color: #4F4846;
 }
 
-
-.fade-enter {
-  opacity: 0.01;
-}
-
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
-
-.fade-leave {
-  opacity: 1;
-}
-
-.fade-leave.fade-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
+a.thick {
+  color: #BF6567;
+  font-weight: bold;
 }
 
 .fade-appear {
@@ -110,16 +108,11 @@ h1 {
 
 .fade-appear.fade-appear-active {
   opacity: 1;
-  transition: opacity .5s ease-in;
+  transition: opacity .4s ease-in;
 }
 
-/*.sidebar-appear {
-  opacity: 0.01;
+.container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
 }
-
-.sidebar-appear.sidebar-appear-active {
-  opacity: 1;
-  transition: opacity .8s ease-in;
-}
-*/
-

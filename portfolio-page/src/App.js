@@ -32,8 +32,9 @@ class App extends Component {
       <div className="App">
         <header></header>
         <Sidebar
-        state={this.state}
-        handleClick={this.handleClick} />
+          state={this.state}
+          handleClick={this.handleClick}
+        />
         <main>
           {display}
         </main>
