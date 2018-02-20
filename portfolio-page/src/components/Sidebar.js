@@ -19,25 +19,29 @@ const Sidebar = (props) => {
         onClick={(e) => props.handleClick(e)}
         id="linkedin">linkedin >
       </a>
-      <a 
+      <a
+        style={{"color": `${state.activeItem === 'medium' ? "#BF6567" : "#2B2826"}`} }
         className="button" 
         id="medium"
         onClick={(ev) => props.handleClick(ev)}
         >blog {state.activeItem === 'medium' ? " -" : " +"}
       </a>
       <a
+        style={{"color": `${state.activeItem === 'projects' ? "#BF6567" : "#2B2826"}`} }
         className="button" 
         id="projects"
         onClick={(ev) => props.handleClick(ev)}
         >projects {state.activeItem === 'projects' ? " -" : " +"}
       </a>
-      <a 
+      <a
+        style={{"color": `${state.activeItem === 'about' ? "#BF6567" : "#2B2826"}`} }
         className="button"
         id="about" 
         onClick={(ev) => props.handleClick(ev)}
         >about {state.activeItem === 'about' ? " -" : " +"}
       </a>
-      <a 
+      <a
+        style={{"color": `${state.activeItem === 'home' ? "#BF6567" : "#2B2826"}`} }
         className="button"
         id="home" 
         onClick={(ev) => props.handleClick(ev)}

@@ -5,7 +5,7 @@ header {
 main {
   grid-area: main;
   padding: 15px;
-  margin-right: 10px;
+  margin-right: 10%;
 }
 
 footer {
@@ -64,7 +64,8 @@ footer {
 .button:hover { 
   text-decoration: underline; 
   text-underline-position: under;
-  text-decoration-color: #BF6567; 
+  text-decoration-color: #BF6567;
+  color: #BF6567;
 }
 
 a:link {
@@ -72,8 +73,12 @@ a:link {
 }
 
 hr.style {
-  border-top: 1px solid #BF6567;
+  border-top: 2px solid #BF6567;
+  text-align: left;
 }
 
+h1 {
+  color: #4F4846;
+}
 
 
