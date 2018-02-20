@@ -1,14 +1,20 @@
-import React from 'react'
+import React from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 const Projects = () => {
   return (
     <div>
-      <h1>
-        projects
-      </h1>
-      <hr className="style" />
+      <ReactCSSTransitionGroup
+        transitionName="fade"
+        transitionAppear={true}
+        transitionAppearTimeout={500}>
+        <h1>
+          projects
+        </h1>
+        <hr className="style" />
+      </ReactCSSTransitionGroup>
     </div>
   )
 }
 
-export default Projects
+export default Projects;

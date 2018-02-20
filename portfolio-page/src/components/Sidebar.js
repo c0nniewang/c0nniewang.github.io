@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Sidebar = (props) => {
   const state = props.state
@@ -51,4 +51,4 @@ const Sidebar = (props) => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
