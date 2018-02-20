@@ -4,8 +4,9 @@ const About = () => {
   return (
     <div>
       <h1>
-        About Me
+        more about me
       </h1>
+      <hr className="style" />
     </div>
   )
 }

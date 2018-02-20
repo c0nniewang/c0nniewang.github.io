@@ -37,7 +37,9 @@ class App extends Component {
     return (
       <div className="App">
         <header></header>
-        <Sidebar handleClick={this.handleClick} />
+        <Sidebar
+        state={this.state}
+        handleClick={this.handleClick} />
         <main>
           {display}
         </main>
