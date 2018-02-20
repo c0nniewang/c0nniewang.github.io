@@ -4,8 +4,9 @@ const Medium = () => {
   return (
     <div>
       <h1>
-        Medium
+        blog posts
       </h1>
+      <hr className="style"/>
     </div>
   )
 }

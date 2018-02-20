@@ -9,8 +9,6 @@ class App extends Component {
   state = {activeItem: 'home'}
 
   handleClick = (ev) => {
-    console.log(ev.target.id)
-
     this.setState({
       activeItem: ev.target.id
     })
@@ -22,12 +20,13 @@ class App extends Component {
       display = (<div><p className="App-title">
             Hi, I'm Connie Wang.
           </p>
+          <hr className="style" /><br />
           <p className="App-intro">
             I am a full stack web developer currently based in NYC looking for my next adventure. I recently completed the 15-week Software Engineering Immersive program @ Flatiron School. 
           </p></div>)
     } else if (this.state.activeItem === 'about') {
       display = <About />
-    } else if (this.state.activeItem === 'blog') {
+    } else if (this.state.activeItem === 'medium') {
       display = <Medium />
     } else if (this.state.activeItem === 'projects') {
       display = <Projects />

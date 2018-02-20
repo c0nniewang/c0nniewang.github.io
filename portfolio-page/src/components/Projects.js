@@ -6,6 +6,7 @@ const Projects = () => {
       <h1>
         projects
       </h1>
+      <hr className="style" />
     </div>
   )
 }

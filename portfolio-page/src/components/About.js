@@ -7,6 +7,7 @@ const About = () => {
         more about me
       </h1>
       <hr className="style" />
+      
     </div>
   )
 }

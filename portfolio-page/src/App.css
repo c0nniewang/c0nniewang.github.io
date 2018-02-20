@@ -73,8 +73,12 @@ a:link {
 }
 
 hr.style {
-  border-top: 2px solid #BF6567;
+  background-color: #BF6567;
+  border: none;
+  height: 8px;
+  width: 8%;
   text-align: left;
+  margin-left: 0;
 }
 
 h1 {
