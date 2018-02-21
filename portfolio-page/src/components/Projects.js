@@ -12,6 +12,9 @@ const Projects = () => {
           projects
         </h1>
         <hr className="style" />
+        <p className="App-intro">
+        Coming soon!
+        </p>
       </ReactCSSTransitionGroup>
     </div>
   )
