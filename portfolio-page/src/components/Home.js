@@ -18,7 +18,11 @@ const Home = () => {
       </p>
       <br /><br />
       <p className="App-intro">
-      Say <a className="thick">hello</a> @ connie.wang303@gmail.com.
+      Say hello @ <a
+        href="mailto:connie.wang303@gmail.com"
+        className="thick">
+        connie.wang303@gmail.com.
+        </a>
       </p>
       </ReactCSSTransitionGroup>
     </div>

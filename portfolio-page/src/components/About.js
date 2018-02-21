@@ -26,10 +26,21 @@ const About = () => {
         </div>
         <div className="column">
           <p className="App-intro">
-            I am a recent graduate of Northwestern University. With a background in <a className="thick">piano performance</a> and <a className="thick">cognitive science</a>, I have a passion for tackling complex problems and building solutions. I decided to take my love for challenges and take the plunge in learning programming and completed the <a className="thick">Software Engineering Immersive</a> program at <a className="thick">Flatiron School</a> in February 2017.
+            I am a recent graduate of Northwestern University. With a background in <a 
+            className="thick" 
+            href="https://www.youtube.com/watch?v=Payg-jBWqrI"
+            target="_blank"
+            rel="noopener noreferrer"
+            >piano performance</a> and <a 
+            className="thick"
+            href="https://docs.google.com/presentation/d/1FC9Y5Cs0lVVVWZylJjo0rnJL7hHzB0_-_OpXu1KaOag/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            >cognitive science</a>, I have a passion for tackling complex problems and building solutions. I decided to take my love for challenges and take the plunge in learning programming and completed the <a className="thick">Software Engineering Immersive</a> program at <a className="thick">Flatiron School</a> in February 2017.
             <br /><br />
             I am passionate about art, science, and technology and am excited to discover how these interests may intersect in interesting ways as I look for my next opportunity in the world of software development.
           </p>
+          <button>View Resume ></button>
           </div>
         </div>
       </ReactCSSTransitionGroup>
@@ -38,4 +49,3 @@ const About = () => {
 }
 
 export default About;
-          // <button>View Resume ></button>
