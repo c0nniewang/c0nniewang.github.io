@@ -40,7 +40,12 @@ const About = () => {
             <br /><br />
             I am passionate about art, science, and technology and am excited to discover how these interests may intersect in interesting ways as I look for my next opportunity in the world of software development.
           </p>
-          <button>View Resume ></button>
+          <a
+            href="https://s3.us-east-2.amazonaws.com/development-personal/Connie+Wang+2018+Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button>View Resume ></button>
+          </a>
           </div>
         </div>
       </ReactCSSTransitionGroup>
